@@ -50,10 +50,10 @@ function obtenerResto(x, y) {
 
 // Comprobar si es par.
 function esPar(num) {
-	if(num % 2) {
-        return false;
-    }
-    return true;
+	if (num % 2) {
+		return false;
+	}
+	return true;
 }
 
 // Comprobar si es impar.
@@ -96,17 +96,17 @@ function numeroRandom() {
 
 // Comprar si un numero es positivo.
 function esPositivo(num) {
-    if( num === 0) {
-        return false;
-    } else if( num > 0) {
-        return "Es positivo";
-    } 
-    return "Es negativo";
+	if (num === 0) {
+		return false;
+	} else if (num > 0) {
+		return "Es positivo";
+	}
+	return "Es negativo";
 }
 
 // Concatenar strings I.
 function agregarSimboloDeExclamacion(str) {
-	return str + '!';
+	return str + "!";
 }
 
 // Concatenar strings II.
@@ -116,37 +116,37 @@ function combinarNombres(nombre, apellido) {
 
 // Concatenar strings III.
 function retornarSaludo(nombre) {
-    return "Hola " + nombre + "!";
+	return "Hola " + nombre + "!";
 }
 
 // Operaciones matemáticas I.
 function areaDelRectangulo(alto, ancho) {
-    return alto * ancho;
+	return alto * ancho;
 }
 
 // Operaciones matemáticas II.
 function perimetroDelCuadrado(lado) {
-    return lado * 4;
+	return lado * 4;
 }
 
 // Operaciones matemáticas III.
 function areaDelTriangulo(base, altura) {
-	return base * altura / 2;
+	return (base * altura) / 2;
 }
 
 // Operaciones matemáticas IV.
 function deEuroAdolar(euro) {
-    return euro * 1.2;
+	return euro * 1.2;
 }
 
 // Condicionales.
 function esVocal(letra) {
-    if(letra.length !== 1) {
-        return "Dato incorrecto";
-    }
-    c = letra.toLowerCase();
-    if(c === 'a' || c === 'e' || c === 'i' || c === 'o' || c === 'u') {
-        return "Es vocal";
-    }
-    return "No es vocal";
+	if (letra.length !== 1) {
+		return "Dato incorrecto";
+	}
+	c = letra.toLowerCase();
+	if (c === "a" || c === "e" || c === "i" || c === "o" || c === "u") {
+		return "Es vocal";
+	}
+	return "No es vocal";
 }
